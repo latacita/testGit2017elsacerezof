@@ -1,13 +1,28 @@
 ﻿%%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Cerezo Fernández, Elsa               %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
-(25)	modificar bitacora.txt	     La fusión se realizaría de manera recursiva.
-(27)	tag
-(28)	push	                     Conflicto con repositorio remoto.
+ (01)	clone URL
+ (02)	Modificar bitacora.txt
+ (03) 	checkout -b Historia000
+ (04)	checkout -b Historia001
+ (05)	checkout Historia000
+ (07)	add bitacora.txt
+ (08)	commit -m "Paso 08"
+ (09)	checkout Historia001
+ (11)	stash + checkout Historia000
+ (16)	stash apply
+ (20)	merge 			      Fast-forward. Aparecen conflictos.
+ (25)	modificar bitacora.txt	      La fusión se realizaría de manera recursiva.
+ (27)	tag
+ (28)	push	                      Conflicto con repositorio remoto.
 	pull
 	push
+ (30)	add bitacora.txt
+	commit -m "Paso 30"
+ (31)	merge			      Fast-forward.
+
