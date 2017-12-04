@@ -1,12 +1,19 @@
 ﻿%%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Cerezo Fernández, Elsa               %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+ (01)	clone URL
+ (02)	Modificar bitacora.txt
+ (03) 	checkout -b Historia000
+ (04)	checkout -b Historia001
+ (05)	checkout Historia000
  (07)	add bitacora.txt
  (08)	commit -m "Paso 08"
  (09)	checkout Historia001
+ (11)	stash + checkout Historia000
  (16)	stash apply
+ (20)	merge 			      Fast-forward. Aparecen conflictos.
