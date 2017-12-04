@@ -7,3 +7,7 @@
  Paso   Acción                       Notas
 ====== ============================ ================================
 (25)	modificar bitacora.txt	     La fusión se realizaría de manera recursiva.
+(27)	tag
+(28)	push	                     Conflicto con repositorio remoto.
+	pull
+	push
